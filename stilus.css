@@ -1,0 +1,73 @@
+body{
+    background-color:#A093F5;
+}
+
+.tarolo{
+    background-color:#7F7BEC;
+    width:80%;
+    max-width:800px;
+    margin:auto;
+    padding:10px;
+}
+
+.tartalom{
+    background-color:#64F6E3;
+    padding:10px;
+    /* szöveg div-ek szülőeleme */
+    display:grid; /*rácsszerkezet*/
+    grid-template-columns: 1fr 1fr;
+    gap:10px;
+}
+
+.szoveg{
+    background-color:#F6BC64;
+    padding:10px;
+    border:1px solid
+}
+
+.pic img{
+    width:100%; /*kép szélessége kitölti a tárolóját*/
+}
+
+.kepek{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.pic{
+    overflow:hidden;
+}
+
+/*menü formázása*/
+.menu ul{
+    list-style-type: none;
+    padding:0;
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    gap: 10px;
+}
+
+.menu a{
+    text-decoration: none;
+    color:white
+}
+
+.menu li{
+    padding:10px;
+    border-radius: 10px;
+    border:1px solid black;
+    background-color:#7BEC96;
+}
+
+.menu li:hover{
+    background-color: #3FD262
+}
+
+.menu a:hover{
+    color:#3F44D2
+}
+
+h1{
+    text-align: center;
+}
